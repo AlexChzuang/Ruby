@@ -1,10 +1,13 @@
 # 永遠的18歲
 
 class Human
-  
-    def age
-      @age
-    end
+
+    attr_reader :age
+
+    # attr_reader 可以取代下面三行
+    # def age
+    #   @age
+    # end
   
     def age=(x)
       if x >18

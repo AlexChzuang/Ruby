@@ -15,7 +15,7 @@ class Cat
   
   miffy = Cat.new
   miffy.hello
-#   miffy.gossip   直接使用方法不會有答案，因為是private
+# miffy gossip   直接套用方法不會有答案，因為是private
   miffy.send(:gossip)
 
 
