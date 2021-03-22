@@ -16,7 +16,6 @@ class Human
         @age = x
       end
     end
-    
   end
   
   man =Human.new

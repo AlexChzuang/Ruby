@@ -13,4 +13,3 @@ kitty = Cat.new("kk")
 kitty.eat # 實體方法
 
 要做出一個實體，要用new
-
