@@ -18,6 +18,7 @@ class Cat
 # miffy gossip   直接套用方法不會有答案，因為是private
   miffy.send(:gossip)
 
+
 # 或是在 private之前 
 # def 聽說
 #   return gossip
